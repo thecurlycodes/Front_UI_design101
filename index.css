@@ -1,0 +1,242 @@
+.outer {
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    position: relative;
+    width: 100%;
+    background: #EAEDF2;
+    
+}
+/* HEADER CLASSES */
+.header {
+    position: fixed;
+    width:  100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #e9e9ff;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+
+}
+.logo, .menu,.user{
+    position: absolute;
+    display: flex;
+    
+}
+.logo {
+    width: 13.33%;
+    height: 30px;
+    left: 7.63%;
+    top: 25px;
+}
+.logo .headerTitle {
+    left: 10.41%;
+    top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #282B31;
+}
+
+.menu { 
+    width: 22.08%;
+    height: 24px;
+    /* left: 38.96%; */
+    top: 28px;
+    justify-content: space-evenly;
+    font-weight: normal;
+    font-size: 18px; 
+    display: flex;
+    align-items: center;
+}
+
+.menu .menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu .menuTitle1 { 
+    color: #282B31;
+}
+
+.menu .menuTitle {
+    color: #A6ADB1;
+}
+
+.user {
+    width: 15.98%;
+    height: 40px;
+    left: 1100px;
+    top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.balace {
+    display: flex;
+    margin-right: 10px;
+    background: #DDE1E8;
+    border-radius: 15px;
+    width: 146px;
+    justify-content: space-around;
+}
+
+.userTitle {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    color: #282B31;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++============== */
+
+.main {
+    position: absolute;
+    width: 90.27778%;
+    left: 110px;
+    top: 120px;
+}
+
+.main-Text {
+    font-weight: 500;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #282B31;
+}
+
+.main-tasks {
+    width: 93.73%;
+    margin-bottom: 100px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.task1 {
+    width: 23.62%;
+    height: 360px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.task-insider {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.task-user {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width:21.47%;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userAvtarText {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #282B31;
+}
+
+.usertextSmal {
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #A6ADB1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.task-image {
+    margin-top: 20px;
+    height: 180px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.task-button {
+    height: 50px;
+    background-color:  black;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #e2cbcb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+.task-button:hover{
+    background-color:  whitesmoke;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    bottom: 0px;
+    background:  #EAEDF2;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-Text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #282B31;
+}
